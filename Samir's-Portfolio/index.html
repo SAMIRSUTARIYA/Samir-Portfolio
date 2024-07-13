@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/index.css">
+    
+    <title> Samir's Portfolio</title>
+</head>
+<body>
+    <!---------------------------------------------------------------------->
+    <header class="header">
+        <!-- <nav> -->
+            <a href="#home" class="logo">Samir's
+            <span>Portfolio</span></a>
+            <div class="sub-header">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <nav class="navbar">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#education">Education</a>
+                    <a href="#services">Services</a>
+                    <!-- <a href="#testimonials">Testimonials</a> -->
+                    <a href="#contact">Contact-me</a>
+                </nav>
+                <img src="./img/moon.png" alt="" id="icon">
+            </div>
+        <!-- </nav> -->
+    </header>
+        <!---------------------------------------------------------------------->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hello, I'm <span>Samir</span></h1>
+                <h3 class="text-animation">and I am a <br><span id="element"></span>
+                </h3>
+                <div class="social-icons">
+                    <a href=""><i class='bx bxl-linkedin'></i></a>
+                    <a href=""><i class='bx bxl-github'></i></a>
+                <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contack-me</a>
+            </div>
+        </div>
+        
+        <div class="home-img">
+            <img src="./img/IMG_4551-removebg1.png" alt="Error-in-Loading-Image">
+        </div>
+    </section>
+    <!---------------------------------------------------------------------->
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <!-- | -->
+            <div class="timeline-item" id="timeline-item-1">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019-2021</div>
+                <div class="timeline-content">
+                    <h3>High-School</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="timeline-item" id="timeline-item-2">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2025</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="timeline-item" id="timeline-item-3">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2025</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="timeline-item" id="timeline-item-4">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021-2025</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam.</p>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </section>
+    <!--------------------------------------------------------------------->
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <!--  -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web-Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto error facere ipsam nisi corporis laboriosam.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web-Designer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto error facere ipsam nisi corporis laboriosam.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Data-Analyst</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto error facere ipsam nisi corporis laboriosam.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Video-Editor</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto error facere ipsam nisi corporis laboriosam.</p>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </section>
+    <!--  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact-Me</h2>
+        
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full-Name:">
+                    <input type="email" placeholder="Email:">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone-No:">
+                    <input type="text" placeholder="Subject:">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your-Massage:"></textarea>
+                <input type="submit" value="Send Message" class="btn" onclick="submit">
+            </div>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/samirsutariya/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/SAMIRSUTARIYA"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/samir_sutariya/"><i class='bx bxl-instagram-alt'></i></a>
+            <a href=""><i class='bx bxl-twitter'></i></a>
+        </div>
+        
+        <ul>
+            <li><a href="#home">About-me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contack-me</a></li>
+        </ul>
+        <p class="copyright">
+            © Samir Sutariya | All Rights Reserved.
+        </p>
+    </footer>
+    <!---------------------------------------------------------------------->
+    <script src="./js/index.js"></script>    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web-Developer</i>.', '<i>Web-Designer</i>.', '<i>Data-Analyst</i>.', '<i>Video-Editor</i>.', '<i>Web-Developer</i>.', '<i>Web-Designer</i>.', '<i>Data-Analyst</i>.', '<i>Video-Editor</i>', '<i>Web-Developer</i>.'],
+            typeSpeed: 50,
+        });
+        </script>
+</body>
+
+</html>
