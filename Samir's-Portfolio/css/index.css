@@ -258,7 +258,7 @@ span {
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--secondary-bg-color);
-    box-shadow: 0 0 15px var(--secondary-main-color);
+    /* box-shadow: 0 0 15px var(--secondary-main-color); */
     border-radius: 4rem;
     font-size: 1.6rem;
     color: var(--secondary-text-color);
@@ -272,7 +272,7 @@ span {
     display: inline-block;
     padding: 1rem 2.8rem;
     background: var(--secondary-bg-color);
-    box-shadow: 0 0 5px var(--secondary-main-color);
+    /* box-shadow: 0 0 5px var(--secondary-main-color); */
     border-radius: 4rem;
     font-size: 1.6rem;
     color: var(--secondary-text-color);
@@ -304,12 +304,12 @@ span {
 .btn-group a:nth-of-type(2) {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
-    box-shadow: 0 0 15px var(--main-color);
+    /* box-shadow: 0 0 15px var(--main-color); */
 }
 .dark-theme .btn-group a:nth-of-type(2) {
     background-color: var(--secondary-bg-color);
     color: var(--secondary-text-color);
-    box-shadow: 0 0 5px var(--main-color); 
+    /* box-shadow: 0 0 5px var(--main-color);  */
 }
 .btn-group a:nth-of-type(2):hover {
     background-color: var(--bg-color);
@@ -482,7 +482,7 @@ span {
 
 .service-box {
     background-color: var(--secondary-bg-color);
-    height: 150px;
+    height: 170px;
     /* height: 300px; */
     border-radius: 3rem;
     box-shadow: 0 0 10px var(--main-color);
